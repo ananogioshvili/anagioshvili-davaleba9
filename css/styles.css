@@ -1,0 +1,125 @@
+.head {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.conteiner2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.list {
+  font-size: 17px;
+  font-weight: 400;
+  color: #636060;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-left: 40px;
+}
+
+.greece {
+  background-image: url(../images/Rectangle\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 606px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text1 {
+  font-size: 79px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.text2 {
+  font-size: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.sec2 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+.cont1 {
+  width: 235px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+h1 {
+  font-weight: 400;
+  color: #636060;
+  font-size: 20px;
+}
+
+h2 {
+  font-weight: 400;
+  color: #010101;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.cont2 {
+  width: 868px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.photocard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.cardtitle {
+  width: 400;
+  font-size: 19px;
+  color: #343232;
+  margin-bottom: 9px;
+}
+
+.cardtext {
+  width: 400;
+  font-size: 17px;
+  color: #636060;
+  width: 286px;
+  line-height: 20.7px;
+  margin-bottom: 50px;
+}
